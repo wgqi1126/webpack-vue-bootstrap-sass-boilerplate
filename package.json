@@ -2,12 +2,12 @@
   "name": "webpack-vue-bootstrap-sass-boilerplate",
   "version": "0.0.0",
   "description": "webpack project boilerplate",
-  "main": "client/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo 'NOT IMPLEMENTED YET :X' 1>&2 && exit 1",
     "build": "webpack --config build/webpack.prod.js",
     "dev": "node build/server.js",
-    "lint": "xo **/client/**/*.{vue,js} !node_modules/**"
+    "lint": "xo **/src/**/*.{vue,js} !node_modules/**"
   },
   "author": "toricls <toriclstr@gmail.com>",
   "license": "MIT",

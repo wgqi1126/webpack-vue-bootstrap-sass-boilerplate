@@ -11,9 +11,9 @@ const LogPlugin = require('./log-plugin')
 const app = express()
 
 const port = config.port
-webpackConfig.entry.client = [
+webpackConfig.entry.app = [
   `webpack-hot-middleware/client?reload=true`,
-  webpackConfig.entry.client
+  webpackConfig.entry.app
 ]
 
 webpackConfig.plugins.push(new LogPlugin(port))

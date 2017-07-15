@@ -17,7 +17,6 @@ body {
 }
 .page {
   text-align: center;
-  /* nesting for the need to test postcss */
   code {
     background-color: #f0f0f0;
     padding: 3px 5px;

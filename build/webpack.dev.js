@@ -20,9 +20,9 @@ base.plugins.push(
 _.cssProcessors.forEach(processor => {
   let loaders
   if (processor.loader === '') {
-    loaders = ['postcss-loader']
+    loaders = []
   } else {
-    loaders = ['postcss-loader', processor.loader]
+    loaders = [processor.loader]
   }
   base.module.loaders.push(
     {

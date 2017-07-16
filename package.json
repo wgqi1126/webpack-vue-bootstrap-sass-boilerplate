@@ -56,6 +56,7 @@
     "file-loader": "^0.11.2",
     "friendly-errors-webpack-plugin": "^1.6.1",
     "html-webpack-plugin": "^2.29.0",
+    "karma": "^1.7.0",
     "node-sass": "^4.5.3",
     "offline-plugin": "^4.8.3",
     "raw-loader": "^0.5.1",

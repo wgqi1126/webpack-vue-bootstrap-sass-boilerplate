@@ -5,7 +5,7 @@ const webpack = require('webpack')
 const webpackConfig = require('./webpack.base')
 const _ = require('./utils')
 
-webpackConfig.devtool = '#inline-source-map'
+webpackConfig.devtool = 'inline-source-map'
 webpackConfig.plugins.push(
   new webpack.DefinePlugin({
     'process.env.NODE_ENV': JSON.stringify('testing')

@@ -248,17 +248,6 @@ autoprefixer@^6.3.1:
     postcss "^5.2.16"
     postcss-value-parser "^3.2.3"
 
-autoprefixer@^7.1.2:
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-7.1.2.tgz#fbeaf07d48fd878e0682bf7cbeeade728adb2b18"
-  dependencies:
-    browserslist "^2.1.5"
-    caniuse-lite "^1.0.30000697"
-    normalize-range "^0.1.2"
-    num2fraction "^1.2.2"
-    postcss "^6.0.6"
-    postcss-value-parser "^3.2.3"
-
 aws-sign2@~0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.6.0.tgz#14342dd38dbcc94d0e5b87d763cd63612c0e794f"
@@ -3432,6 +3421,12 @@ karma-phantomjs-launcher@^1.0.4:
     lodash "^4.0.1"
     phantomjs-prebuilt "^2.1.7"
 
+karma-sourcemap-loader@^0.3.7:
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/karma-sourcemap-loader/-/karma-sourcemap-loader-0.3.7.tgz#91322c77f8f13d46fed062b042e1009d4c4505d8"
+  dependencies:
+    graceful-fs "^4.1.2"
+
 karma-webpack@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/karma-webpack/-/karma-webpack-2.0.4.tgz#3e2d4f48ba94a878e1c66bb8e1ae6128987a175b"
@@ -4676,7 +4671,7 @@ postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@^6.0.1, postcss@^6.0.6:
+postcss@^6.0.1:
   version "6.0.6"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.6.tgz#bba4d58e884fc78c840d1539e10eddaabb8f73bd"
   dependencies:

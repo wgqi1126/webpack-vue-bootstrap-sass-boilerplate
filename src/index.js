@@ -1,9 +1,9 @@
-import './promise-polyfill'
 import { app } from './app'
+import './utils/promise-polyfill'
 
 // Enable progressive web app support (with offline-plugin)
 if (process.env.NODE_ENV === 'production') {
-  require('./pwa')
+  require('./utils/pwa')
 }
 
 app.$mount('#app')

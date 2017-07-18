@@ -29,6 +29,12 @@ To build for production:
 $ yarn run build
 ```
 
+To run unit tests:
+
+```bash
+$ yarn run test
+```
+
 To lint you code:
 
 ```bash

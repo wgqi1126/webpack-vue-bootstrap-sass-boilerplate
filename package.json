@@ -4,7 +4,7 @@
   "description": "webpack project boilerplate",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo 'NOT IMPLEMENTED YET :X' 1>&2 && exit 1",
+    "test": "karma start test/unit/karma.conf.js --single-run",
     "build": "webpack --config build/webpack.prod.js",
     "dev": "node build/server.js",
     "lint": "xo **/src/**/*.{vue,js} !node_modules/**"

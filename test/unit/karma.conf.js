@@ -1,6 +1,8 @@
 // Karma configuration
 // Generated on Sun Jul 16 2017 19:17:08 GMT+0900 (JST)
 
+var webpackConfig = require('../../build/webpack.test')
+
 module.exports = function (config) {
   config.set({
     // frameworks to use
@@ -14,6 +16,10 @@ module.exports = function (config) {
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
       './index.js': ['webpack']
+    },
+    webpack: webpackConfig,
+    webpackMiddleware: {
+      noInfo: true
     },
     // test results reporter to use
     // possible values: 'dots', 'progress'

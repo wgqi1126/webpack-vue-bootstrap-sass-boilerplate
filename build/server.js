@@ -39,7 +39,6 @@ app.use(require('webpack-hot-middleware')(compiler, {
 const mfs = devMiddleWare.fileSystem
 const file = path.join(webpackConfig.output.path, 'index.html')
 
-
 devMiddleWare.waitUntilValid()
 
 app.get('*', (req, res) => {

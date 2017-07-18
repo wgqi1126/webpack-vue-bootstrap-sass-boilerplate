@@ -1,3 +1,4 @@
+import '@src/utils/promise-polyfill'
 import Vue from 'vue'
 
 Vue.config.productionTip = false

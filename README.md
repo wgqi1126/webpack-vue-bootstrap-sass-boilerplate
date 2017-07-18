@@ -5,10 +5,11 @@
 - ESLint
 - Babel 6
 - bootstrap-sass (Bootstrap 3)
+- Unit testing with Karma, Mocha, Chai
 
 ## TODO
 
-- Add testing frameworks (unit, e2e)
+- Add e2e testing frameworks
 
 ## Get Started
 
@@ -21,7 +22,8 @@ $ yarn install
 To develop:
 
 ```bash
-$ yarn run dev```
+$ yarn run dev
+```
 
 To build for production:
 

@@ -11,16 +11,6 @@
   },
   "author": "toricls <toriclstr@gmail.com>",
   "license": "MIT",
-  "babel": {
-    "presets": [
-      [
-        "vue-app",
-        {
-          "useBuiltIns": true
-        }
-      ]
-    ]
-  },
   "browserslist": [
     "last 2 versions",
     "ie > 8"

@@ -12,7 +12,7 @@ if (process.env.NODE_ENV === 'production') {
   require('./utils/pwa')
 }
 
-new Vue({
+new Vue({ // eslint-disable-line no-new
   el: '#app',
   router,
   store,

@@ -1,6 +1,6 @@
 # webpack-vue-bootstrap-sass-boilerplate
 
-- Vue 2 / Vue-router (vuex, )
+- Vue 2, Vue-router, Vuex
 - webpack 3
 - ESLint
 - Babel 6
